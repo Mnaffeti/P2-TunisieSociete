@@ -29,13 +29,13 @@ const About = () => {
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="/images/about/about-light-01.png"
+                src={"/images/about/solutionss.jpg"}
                 alt="About"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="/images/about/about-dark-01.png"
+                src={"/images/about/solutionss.jpg"}
                 alt="About"
                 className="hidden dark:block"
                 fill
@@ -181,7 +181,6 @@ const About = () => {
             className="animate_top rounded-lg bg-linear-to-t from-[#F8F9FF] to-[#DEE7FF] p-7.5 dark:bg-blacksection dark:bg-linear-to-t dark:from-transparent dark:to-transparent md:p-12.5 xl:p-17.5"
           >
             <div className="mb-4 flex items-center gap-2">
-              <span className="text-2xl">💰</span>
               <h2 className="text-2xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 Impôt sur Société en Tunisie 2025
               </h2>
@@ -285,13 +284,13 @@ const About = () => {
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="./images/about/about-light-02.svg"
+                src={"/images/about/buisness.jpg"}
                 alt="About"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="./images/about/about-dark-02.svg"
+                src={"/images/about/buisness.jpg"}
                 alt="About"
                 className="hidden dark:block"
                 fill

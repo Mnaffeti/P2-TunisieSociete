@@ -4,26 +4,29 @@ const featuresTabData: FeatureTab[] = [
   {
     id: "tabOne",
     title: "Création de Société Clé en Main",
-    desc1: `Nous nous chargeons de toutes les formalités de création de votre société : validation de la faisabilité juridique, recommandation de solutions adaptées, rédaction juridique complète.`,
-    desc2: `Immatriculation rapide avec matricule fiscale, déclaration d'existence, registre national des entreprises, code en douane et annonce légale. Service complet et professionnel.`,
-    image: "/images/features/features-light-01.png",
-    imageDark: "/images/features/features-dark-01.svg",
+    desc1: `Nous sommes votre consultant idéal pour toutes sociétés désireuses d’y développer une activité ou d’y créer une succursale et pour toute personne souhaitant créer son entreprise en Tunisie.
+Nous vous assistons si vous choisissez de s'implanter en Tunisie.`,
+    desc2: `
+Nous vous apportons un accompagnement administratif, juridique, fiscal et commercial sur mesure.
+Nous sommes réactifs, attentifs à votre demande et à vos besoins. Spécialisés dans la création, la délocalisation et le droit des sociétés commerciales.`,
+    image: "/images/about/about2.jpg",
+    imageDark: "/images/about/about2.jpg",
   },
   {
     id: "tabTwo",
     title: "Création de STARTUP en Tunisie",
-    desc1: `Label accordé aux sociétés innovantes avec moins de 8 ans d'existence. Bénéficiez d'avantages exceptionnels : exonération de l'IS durant la labellisation, prise en charge des charges sociales, bourse de startup.`,
-    desc2: `Accès facilité aux marchés publics (20% réservés), carte technologique jusqu'à 100K DT/an, compte en devises libre, et nombreux autres avantages fiscaux et administratifs.`,
-    image: "/images/features/features-light-01.png",
-    imageDark: "/images/features/features-dark-01.svg",
+    desc1: `Trouver un Comptable relève parfois du parcours du combattant. Choisir un Comptable n’est pas une décision à prendre à la légère.`,
+    desc2: ` Conscients de cette difficulté, nous avons mis en place une plateforme de mise en relation gratuite entre les entrepreneurs, créateurs d’entreprise et nos experts-Comptables partenaires.`,
+    image: "/images/about/about2.jpg",
+    imageDark: "/images/about/about2.jpg",
   },
   {
     id: "tabThree",
     title: "Domiciliation et Services Complets",
-    desc1: `Solution simple et rapide pour l'installation de votre entreprise. Adresse légale professionnelle avec réception de courrier, réponse aux appels téléphoniques, accueil clients et mise à disposition de bureaux.`,
-    desc2: `Contrat signé en 15 minutes, enregistrement à la recette des finances pris en charge, suivi par email de vos appels, fax et courriers. Plus professionnel que le domicile personnel ou une boîte postale.`,
-    image: "/images/features/features-light-01.png",
-    imageDark: "/images/features/features-dark-01.svg",
+    desc1: `Votre temps est trop précieux pour le passer à effectuer les formalités administratives, parfois répétitives pas toujours passionnantes, et pourtant obligatoires.`,
+    desc2: `Notre Société vous assiste, pour l’ensemble de ces tâches et vous permet de vous consacrer pleinement à votre activité.`,
+    image: "/images/about/about2.jpg",
+    imageDark: "/images/about/about2.jpg",
   },
 ];
 
