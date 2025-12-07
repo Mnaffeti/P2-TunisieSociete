@@ -38,8 +38,16 @@ const Header = () => {
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
-            <span className="text-2xl font-bold text-black dark:text-white">
-              LOGO
+            <span className="flex items-center gap-3">
+              <Image
+                src="/images/logo/logo.svg"
+                alt="Tunisie Societe Logo"
+                width={48}
+                height={48}
+                className="h-12 w-auto object-contain dark:invert-0"
+                priority
+              />
+              <span className="text-2xl font-extrabold tracking-tight text-black dark:text-white font-sans" style={{fontFamily: 'Inter, Segoe UI, Arial, sans-serif'}}>TS</span>
             </span>
           </a>
 
