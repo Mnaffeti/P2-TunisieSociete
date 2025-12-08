@@ -26,10 +26,10 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
+              className="animate_left relative mx-auto hidden aspect-[540/526.5] md:block md:w-1/2"
             >
               <Image
-                src={"/images/about/solutionss.jpg"}
+                src={"/images/about/meeting.jpg"}
                 alt="About"
                 className="dark:hidden"
                 fill
@@ -246,23 +246,14 @@ const About = () => {
               <p>
                 De la validation juridique à l'immatriculation, nous nous chargeons de toutes les formalités de création de votre société en Tunisie avec rapidité, confidentialité et efficacité garanties.
               </p>
-              <div>
-                <a
-                  href="#"
-                  className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
+              <div className="mt-7.5">
+                <button
+                  aria-label="demander devis button"
+                  className="rounded-full px-7.5 py-2.5 text-white duration-300 ease-in-out hover:opacity-90"
+                  style={{ backgroundColor: '#0097b2' }}
                 >
-                  <span className="duration-300 group-hover:pr-2">
-                    En savoir plus
-                  </span>
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 14 14"
-                    fill="currentColor"
-                  >
-                    <path d="M10.4767 6.16701L6.00668 1.69701L7.18501 0.518677L13.6667 7.00034L7.18501 13.482L6.00668 12.3037L10.4767 7.83368H0.333344V6.16701H10.4767Z" />
-                  </svg>
-                </a>
+                  Demander Devis
+                </button>
               </div>
             </motion.div>
             <motion.div

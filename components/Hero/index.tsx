@@ -76,10 +76,10 @@ const Hero = () => {
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
-                <div className=" relative aspect-400/444 w-full">
+                <div className=" relative aspect-300/400 w-full">
                   <Image
                     className="shadow-solid-l"
-                    src="/images/hero/Tunisie.png"
+                    src="/images/hero/hero.png"
                     alt="Hero"
                     fill
                   />

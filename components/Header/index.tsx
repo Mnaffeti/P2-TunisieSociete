@@ -29,26 +29,23 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-7 ${
+      className={`fixed left-0 top-0 z-99999 w-full py-3 ${
         stickyMenu
-          ? "bg-white py-4! shadow-sm transition duration-100 dark:bg-black"
+          ? "bg-white py-2! shadow-sm transition duration-100 dark:bg-black"
           : ""
       }`}
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
-            <span className="flex items-center gap-3">
-              <Image
-                src="/images/logo/logo.svg"
-                alt="Tunisie Societe Logo"
-                width={48}
-                height={48}
-                className="h-12 w-auto object-contain dark:invert-0"
-                priority
-              />
-              <span className="text-2xl font-extrabold tracking-tight text-black dark:text-white font-sans" style={{fontFamily: 'Inter, Segoe UI, Arial, sans-serif'}}>TS</span>
-            </span>
+            <Image
+              src="/images/logo/logo_1.png"
+              alt="Tunisie Societe Logo"
+              width={160}
+              height={160}
+              className="h-32 w-auto object-contain dark:invert-0"
+              priority
+            />
           </a>
 
           {/* <!-- Hamburger Toggle BTN --> */}
