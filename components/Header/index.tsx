@@ -39,7 +39,7 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/logo_1.png"
+              src="/images/logo/logo_1.PNG"
               alt="Tunisie Societe Logo"
               width={160}
               height={160}
