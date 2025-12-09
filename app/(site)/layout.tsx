@@ -9,7 +9,12 @@ export const metadata: Metadata = {
   title: "Solid | Next.js Template for Startup and SaaS",
   description: "Built with Next.js and TypeScript",
   icons: {
-    icon: "/images/favicon.ico",
+    icon: [
+      {
+        url: "/images/logo/favicon.png",
+        type: "image/png",
+      },
+    ],
   },
 };
 
